@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9F7295F1C80183600D29B88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F7295E1C80183600D29B88 /* main.m */; };
+		C9F729621C80183600D29B88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F729611C80183600D29B88 /* AppDelegate.m */; };
+		C9F729651C80183600D29B88 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F729641C80183600D29B88 /* ViewController.m */; };
+		C9F729681C80183600D29B88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9F729661C80183600D29B88 /* Main.storyboard */; };
+		C9F7296A1C80183600D29B88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9F729691C80183600D29B88 /* Assets.xcassets */; };
+		C9F7296D1C80183600D29B88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9F7296B1C80183600D29B88 /* LaunchScreen.storyboard */; };
+		C9F729781C80183600D29B88 /* WaterMark_image_StringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F729771C80183600D29B88 /* WaterMark_image_StringTests.m */; };
+		C9F729831C80183600D29B88 /* WaterMark_image_StringUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F729821C80183600D29B88 /* WaterMark_image_StringUITests.m */; };
+		C9F729921C80186B00D29B88 /* UIImage+WaterMark.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F729911C80186B00D29B88 /* UIImage+WaterMark.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9F729741C80183600D29B88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9F729521C80183600D29B88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9F729591C80183600D29B88;
+			remoteInfo = "WaterMark-image-String";
+		};
+		C9F7297F1C80183600D29B88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9F729521C80183600D29B88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9F729591C80183600D29B88;
+			remoteInfo = "WaterMark-image-String";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9F7295A1C80183600D29B88 /* WaterMark-image-String.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WaterMark-image-String.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9F7295E1C80183600D29B88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9F729601C80183600D29B88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C9F729611C80183600D29B88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C9F729631C80183600D29B88 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C9F729641C80183600D29B88 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C9F729671C80183600D29B88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9F729691C80183600D29B88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9F7296C1C80183600D29B88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9F7296E1C80183600D29B88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9F729731C80183600D29B88 /* WaterMark-image-StringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WaterMark-image-StringTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9F729771C80183600D29B88 /* WaterMark_image_StringTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterMark_image_StringTests.m; sourceTree = "<group>"; };
+		C9F729791C80183600D29B88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9F7297E1C80183600D29B88 /* WaterMark-image-StringUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WaterMark-image-StringUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9F729821C80183600D29B88 /* WaterMark_image_StringUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterMark_image_StringUITests.m; sourceTree = "<group>"; };
+		C9F729841C80183600D29B88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9F729901C80186B00D29B88 /* UIImage+WaterMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+WaterMark.h"; path = "Tools/UIImage+WaterMark.h"; sourceTree = "<group>"; };
+		C9F729911C80186B00D29B88 /* UIImage+WaterMark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+WaterMark.m"; path = "Tools/UIImage+WaterMark.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9F729571C80183600D29B88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9F729701C80183600D29B88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9F7297B1C80183600D29B88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9F729511C80183600D29B88 = {
+			isa = PBXGroup;
+			children = (
+				C9F729931C80187000D29B88 /* Tools */,
+				C9F7295C1C80183600D29B88 /* WaterMark-image-String */,
+				C9F729761C80183600D29B88 /* WaterMark-image-StringTests */,
+				C9F729811C80183600D29B88 /* WaterMark-image-StringUITests */,
+				C9F7295B1C80183600D29B88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9F7295B1C80183600D29B88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9F7295A1C80183600D29B88 /* WaterMark-image-String.app */,
+				C9F729731C80183600D29B88 /* WaterMark-image-StringTests.xctest */,
+				C9F7297E1C80183600D29B88 /* WaterMark-image-StringUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9F7295C1C80183600D29B88 /* WaterMark-image-String */ = {
+			isa = PBXGroup;
+			children = (
+				C9F729601C80183600D29B88 /* AppDelegate.h */,
+				C9F729611C80183600D29B88 /* AppDelegate.m */,
+				C9F729631C80183600D29B88 /* ViewController.h */,
+				C9F729641C80183600D29B88 /* ViewController.m */,
+				C9F729661C80183600D29B88 /* Main.storyboard */,
+				C9F729691C80183600D29B88 /* Assets.xcassets */,
+				C9F7296B1C80183600D29B88 /* LaunchScreen.storyboard */,
+				C9F7296E1C80183600D29B88 /* Info.plist */,
+				C9F7295D1C80183600D29B88 /* Supporting Files */,
+			);
+			path = "WaterMark-image-String";
+			sourceTree = "<group>";
+		};
+		C9F7295D1C80183600D29B88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9F7295E1C80183600D29B88 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9F729761C80183600D29B88 /* WaterMark-image-StringTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9F729771C80183600D29B88 /* WaterMark_image_StringTests.m */,
+				C9F729791C80183600D29B88 /* Info.plist */,
+			);
+			path = "WaterMark-image-StringTests";
+			sourceTree = "<group>";
+		};
+		C9F729811C80183600D29B88 /* WaterMark-image-StringUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C9F729821C80183600D29B88 /* WaterMark_image_StringUITests.m */,
+				C9F729841C80183600D29B88 /* Info.plist */,
+			);
+			path = "WaterMark-image-StringUITests";
+			sourceTree = "<group>";
+		};
+		C9F729931C80187000D29B88 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				C9F729901C80186B00D29B88 /* UIImage+WaterMark.h */,
+				C9F729911C80186B00D29B88 /* UIImage+WaterMark.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9F729591C80183600D29B88 /* WaterMark-image-String */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9F729871C80183600D29B88 /* Build configuration list for PBXNativeTarget "WaterMark-image-String" */;
+			buildPhases = (
+				C9F729561C80183600D29B88 /* Sources */,
+				C9F729571C80183600D29B88 /* Frameworks */,
+				C9F729581C80183600D29B88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WaterMark-image-String";
+			productName = "WaterMark-image-String";
+			productReference = C9F7295A1C80183600D29B88 /* WaterMark-image-String.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9F729721C80183600D29B88 /* WaterMark-image-StringTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9F7298A1C80183600D29B88 /* Build configuration list for PBXNativeTarget "WaterMark-image-StringTests" */;
+			buildPhases = (
+				C9F7296F1C80183600D29B88 /* Sources */,
+				C9F729701C80183600D29B88 /* Frameworks */,
+				C9F729711C80183600D29B88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9F729751C80183600D29B88 /* PBXTargetDependency */,
+			);
+			name = "WaterMark-image-StringTests";
+			productName = "WaterMark-image-StringTests";
+			productReference = C9F729731C80183600D29B88 /* WaterMark-image-StringTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C9F7297D1C80183600D29B88 /* WaterMark-image-StringUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9F7298D1C80183600D29B88 /* Build configuration list for PBXNativeTarget "WaterMark-image-StringUITests" */;
+			buildPhases = (
+				C9F7297A1C80183600D29B88 /* Sources */,
+				C9F7297B1C80183600D29B88 /* Frameworks */,
+				C9F7297C1C80183600D29B88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9F729801C80183600D29B88 /* PBXTargetDependency */,
+			);
+			name = "WaterMark-image-StringUITests";
+			productName = "WaterMark-image-StringUITests";
+			productReference = C9F7297E1C80183600D29B88 /* WaterMark-image-StringUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9F729521C80183600D29B88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Allan;
+				TargetAttributes = {
+					C9F729591C80183600D29B88 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C9F729721C80183600D29B88 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C9F729591C80183600D29B88;
+					};
+					C9F7297D1C80183600D29B88 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C9F729591C80183600D29B88;
+					};
+				};
+			};
+			buildConfigurationList = C9F729551C80183600D29B88 /* Build configuration list for PBXProject "WaterMark-image-String" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9F729511C80183600D29B88;
+			productRefGroup = C9F7295B1C80183600D29B88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9F729591C80183600D29B88 /* WaterMark-image-String */,
+				C9F729721C80183600D29B88 /* WaterMark-image-StringTests */,
+				C9F7297D1C80183600D29B88 /* WaterMark-image-StringUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9F729581C80183600D29B88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9F7296D1C80183600D29B88 /* LaunchScreen.storyboard in Resources */,
+				C9F7296A1C80183600D29B88 /* Assets.xcassets in Resources */,
+				C9F729681C80183600D29B88 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9F729711C80183600D29B88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9F7297C1C80183600D29B88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9F729561C80183600D29B88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9F729921C80186B00D29B88 /* UIImage+WaterMark.m in Sources */,
+				C9F729651C80183600D29B88 /* ViewController.m in Sources */,
+				C9F729621C80183600D29B88 /* AppDelegate.m in Sources */,
+				C9F7295F1C80183600D29B88 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9F7296F1C80183600D29B88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9F729781C80183600D29B88 /* WaterMark_image_StringTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9F7297A1C80183600D29B88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9F729831C80183600D29B88 /* WaterMark_image_StringUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9F729751C80183600D29B88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9F729591C80183600D29B88 /* WaterMark-image-String */;
+			targetProxy = C9F729741C80183600D29B88 /* PBXContainerItemProxy */;
+		};
+		C9F729801C80183600D29B88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9F729591C80183600D29B88 /* WaterMark-image-String */;
+			targetProxy = C9F7297F1C80183600D29B88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9F729661C80183600D29B88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9F729671C80183600D29B88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9F7296B1C80183600D29B88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9F7296C1C80183600D29B88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9F729851C80183600D29B88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C9F729861C80183600D29B88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9F729881C80183600D29B88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "WaterMark-image-String/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "App.WaterMark-image-String";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C9F729891C80183600D29B88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "WaterMark-image-String/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "App.WaterMark-image-String";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C9F7298B1C80183600D29B88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "WaterMark-image-StringTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "App.WaterMark-image-StringTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterMark-image-String.app/WaterMark-image-String";
+			};
+			name = Debug;
+		};
+		C9F7298C1C80183600D29B88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "WaterMark-image-StringTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "App.WaterMark-image-StringTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterMark-image-String.app/WaterMark-image-String";
+			};
+			name = Release;
+		};
+		C9F7298E1C80183600D29B88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WaterMark-image-StringUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "App.WaterMark-image-StringUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "WaterMark-image-String";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C9F7298F1C80183600D29B88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WaterMark-image-StringUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "App.WaterMark-image-StringUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "WaterMark-image-String";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9F729551C80183600D29B88 /* Build configuration list for PBXProject "WaterMark-image-String" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9F729851C80183600D29B88 /* Debug */,
+				C9F729861C80183600D29B88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9F729871C80183600D29B88 /* Build configuration list for PBXNativeTarget "WaterMark-image-String" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9F729881C80183600D29B88 /* Debug */,
+				C9F729891C80183600D29B88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C9F7298A1C80183600D29B88 /* Build configuration list for PBXNativeTarget "WaterMark-image-StringTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9F7298B1C80183600D29B88 /* Debug */,
+				C9F7298C1C80183600D29B88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C9F7298D1C80183600D29B88 /* Build configuration list for PBXNativeTarget "WaterMark-image-StringUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9F7298E1C80183600D29B88 /* Debug */,
+				C9F7298F1C80183600D29B88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9F729521C80183600D29B88 /* Project object */;
+}
